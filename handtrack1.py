@@ -56,6 +56,7 @@ cap = cv2.VideoCapture(0)
 
 # Keep looping
 while True:
+    print(1)
     # Reading the frame from the camera
     ret, frame = cap.read()
     #Flipping the frame to see same side of yours
